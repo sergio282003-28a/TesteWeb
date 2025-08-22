@@ -1,0 +1,32 @@
+/* Seletor de elementos */
+p{
+ color: blueviolet; /*Muda cor do texto*/
+
+}
+h1{
+    color: firebrick;  /* Mudar cor da Introdução*/
+}
+/*Seletor de ID*/
+#Sergio{      /* Seletor de Paragrafo*/
+    text-align: center;
+    color: green;
+}
+.myclass{
+    border: 0.5em ridge grey;                    /*tamanho, borda, cor*/
+    background-color: black;                     /*Cor da borda*/
+}
+/*Junção de Seletores*/
+li.myclass{
+    font-size: xx-large;         
+}
+    .newclass{                                          /*dentro do myclass */
+        font-family: Arial, Helvetica, sans-serif;  /*muda a fonte das lestras*/
+    }
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+.testecores{
+    padding: 5%;
+    background-color: rgba(255,255,255, 0.4);
+    
+}
