@@ -1,0 +1,88 @@
+/* Estilos gerais */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #6e2800;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Menu */
+nav {
+  background-color: #131212;
+  padding: 10px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+nav ul li a:hover {
+  color: gray;
+}
+
+.barra {
+    color: white;
+}
+
+/* Seção de apresentação */
+#apresentacao {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+#apresentacao img {
+  margin-top: 15px;
+  max-width: 300px;
+  border-radius: 8px;
+}
+
+/* Agenda (Tabela) */
+#agenda {
+  background-color: #e6f7ff;
+  padding: 20px;
+}
+table {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #999;
+  padding: 10px;
+  text-align: center;
+}
+th {
+  background-color: #ddd;
+}
+
+/* Rodapé */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+footer a {
+  color: rgb(18, 184, 239);
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}

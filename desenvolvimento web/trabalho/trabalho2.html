@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 2 DesWebBasico</title>
+    <style>
+        p:first-of-type {
+        color: gray; /* Primeiro parágrafo */
+        }
+
+        p:nth-of-type(even) {
+        color: orange; /* Parágrafos pares */
+        }
+
+        p:last-of-type {
+        color: black;
+        font-style: italic; /* Último parágrafo */
+        }
+
+        ul li a {
+        color: green; /* Links dentro de listas */
+        }
+
+        p a {
+        color: red; /* Links dentro de parágrafos */
+        }
+
+        nav ul {
+        display: flex;
+        gap: 15px;
+        }
+
+        nav ul li a {
+        text-decoration: none;
+        padding: 6px 10px;
+        background-color: #eee;
+        color: black;
+        }
+
+        nav ul li a:hover {
+        background-color: lightblue;
+        }
+
+        nav ul li a:visited {
+        color: purple;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício </h1>
+
+    <p>Este é o primeiro parágrafo (deve ficar cinza).</p>
+    <p>Segundo parágrafo (deve ficar laranja).</p>
+    <p>Terceiro parágrafo (texto normal).</p>
+    <p>Quarto parágrafo (deve ficar laranja).</p>
+    <p>Último parágrafo (deve ficar preto e em itálico).</p>
+
+    <h2>Exercício</h2>
+    <p>Visite o <a href="https://www.google.com" target="_blank">Google</a> clicando aqui.</p>
+  <ul>
+    <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+    <li><a href="https://www.github.com" target="_blank">GitHub</a></li>
+    <li><a href="https://www.up.edu.br/aluno" target="_blank">Faculdade Positivo</a></li>
+  </ul>
+
+  <h2>Exercício</h2>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+</body>
+</html>
