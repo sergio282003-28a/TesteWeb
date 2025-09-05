@@ -1,0 +1,47 @@
+/* seletor de elementos*/
+body{
+    background-color: beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+
+.container{    /*Seletor de classe*/
+    display: flex;
+    flex-direction: row;
+
+}
+
+.menu{
+    background-color:  whitesmoke;
+    padding: 2rem;          /*espaçamento*/
+    margin-right: 3rem;         /*texto*/
+    width: 30%;
+
+}
+.conteudo{
+    padding: 2rem;               /*espaçamento*/
+    width: 70%;
+
+}
+
+.item-menu{                           /*li*/
+    padding: 0.6rem;
+    margin: 0.7rem 0rem 0.7rem 0rem;    /*cima direita esquerda baixo*/
+    list-style: none;
+    border-bottom: solid;      /*borda*/
+}
+
+.item-menu:hover{
+    background-color: rgb(155, 139, 139);
+}
+section{
+    margin-top: 3rem;
+}
+#dados{
+    background-color: antiquewhite;
+}
+#contatos{
+    background-color: antiquewhite;
+}
+#projetos{
+    background-color: antiquewhite;
+}
