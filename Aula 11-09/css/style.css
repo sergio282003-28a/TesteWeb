@@ -1,0 +1,23 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+label{
+    display: block; /*quebra linha*/
+    margin-top: 1rem; /*tamanho do elemento*/
+   
+}
+
+.formulario{
+    margin: 2rem; /*margem para todos os lados*/
+    padding: 2rem; /*afastar as bordas*/
+}
+
+input{
+    border-radius: 0.2rem;
+    border-color: rgb(24, 21, 21);
+    padding: 0.4rem;
+}
+.nasc:hover{ /*cor das datas*/
+    background-color: rgb(149, 149, 151);
+}
+ 
